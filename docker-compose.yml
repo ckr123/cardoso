@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  php:
+    image: registry.uptime.dk/docker/php-jessie
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/var/www/webapp
+    command: php -S 0.0.0.0:3000 -t /var/www/webapp/public
