@@ -1,11 +1,13 @@
 /node_modules
 /public/hot
 /public/storage
+/public/img
 /storage/*.key
 /vendor
 /.idea
 /.vagrant
 Homestead.json
+.DS_Store
 Homestead.yaml
 npm-debug.log
 yarn-error.log
