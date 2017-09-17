@@ -21,7 +21,7 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 $font-family-sans-serif: "Roboto", sans-serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
-$text-color: black;//#636b6f;
+$text-color: black;
 
 // Navbar
 $navbar-default-bg: #fff;
@@ -36,12 +36,3 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
-
-// Custom
-
-$madras: #2C3E50; // Mørk blå
-$mariner: #2980B9; // Mellem blå
-$curious-blue: #3498DB; // lys blå
-$porcelain: #ECF0F1; // Sand
-$cinnabar: #E74C3C; // Rød
-$tundora: #404040; // Grå
