@@ -17,7 +17,6 @@
 </head>
 <body>
     <div id="app">
-        <top-bar></top-bar>
         @yield('content')
     </div>
 

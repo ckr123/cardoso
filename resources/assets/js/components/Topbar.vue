@@ -9,7 +9,16 @@
 </template>
 
 <script>
+
     export default {
+        name: 'top-bar',
+        
+        prop: {
+            image: {
+                type: String,
+                required: true
+            }
+        },
         data() {
             return {
                 image: '/img/index_header.JPG',

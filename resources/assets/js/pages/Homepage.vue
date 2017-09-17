@@ -1,5 +1,6 @@
 <template>
     <div>
+        <top-bar :image="image"></top-bar>
         <div class="container">
             <div class="col-md-6">
                 <h2 class="house__text__header left-border">Toscansk idyl til salg</h2>
@@ -15,27 +16,33 @@
                     Prisoplæg: 210.000 Euro
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="house__thumpnail">
-                    <img v-for="pic in thumpnailImages" :src="pic"/>
-                </div>
-            </div>
+            <photos :images="thumpnailImages"></photos>
         </div>
     </div>
 </template>
-
 <script>
-    export default {
-        data() {
-            return {
-                image: '/img/index_header.JPG',
-                thumpnailImages: [
-                    '/img/IMG_2294.JPG',
-                    '/img/IMG_2306.JPG',
-                    '/img/IMG_2308.JPG',
-                    '/img/IMG_2316.JPG'
-                ]
-            }
-        },
-    }
+
+import TopBar from '../components/TopBar.vue'
+import Photos from '../components/Photos.vue'
+
+export default {
+    name: 'home-page',
+    
+    components: {
+        TopBar,
+        Photos
+    },
+
+    data() {
+        return {
+            image: '/img/index_header.JPG',
+            thumpnailImages: [
+                '/img/IMG_2294.JPG',
+                '/img/IMG_2306.JPG',
+                '/img/IMG_2308.JPG',
+                '/img/IMG_2316.JPG'
+            ]
+        }
+    },
+}
 </script>
