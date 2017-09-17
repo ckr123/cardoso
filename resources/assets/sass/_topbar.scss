@@ -10,9 +10,10 @@
 .menu {
     padding: 10px 10px 10px 30px;
     .frontpage {
-        text-decoration: underline;
-        text-decoration-color: #E67E22;
         color: black;
-
-    }    
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: #E67E22; 
+        }
+    }   
 }
