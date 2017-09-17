@@ -1,0 +1,19 @@
+.banner {
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display:block;
+}
+.menu {
+    padding: 10px 10px 10px 30px;
+    .frontpage {
+        color: black;
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: #E67E22; 
+        }
+    }   
+}
