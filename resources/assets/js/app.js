@@ -16,6 +16,8 @@ window.Vue = require('vue');
  */
 
 Vue.component('home-page', require('./pages/Homepage.vue'));
+Vue.component('photos-page', require('./pages/Photospage.vue'));
+Vue.component('top-bar', require('./components/TopBar.vue'));
 Vue.component('modal', require('./base/Modal.vue'));
 
 const app = new Vue({

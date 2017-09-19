@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="col-md-6">
-            <div class="house__thumpnail">
+        <div :class="col">
+            <div v-bind:class="[border ? 'house__thumpnail left-border': 'house__thumpnail']">
                 <img v-for="image in images" :src="image" @click="showPhotoModal(image)"/>
             </div>
             <modal :open="photoModalOpen" @close="closePhotoModal">
@@ -25,6 +25,14 @@ export default {
             type: Array,
             required: true
         },
+        col: {
+            type: String,
+            default: 'col-md-6'
+        },
+        border: {
+            type: Boolean,
+            default: false
+        }
     },
 
     data() {
@@ -45,3 +53,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.left-border {
+    border-left: thick double rgb(15, 116, 150);
+}
+</style>

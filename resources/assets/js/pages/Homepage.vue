@@ -1,6 +1,5 @@
 <template>
     <div>
-        <top-bar :image="image"></top-bar>
         <div class="container">
             <div class="col-md-6">
                 <h2 class="house__text__header left-border">Toscansk idyl til salg</h2>
@@ -22,25 +21,22 @@
 </template>
 <script>
 
-import TopBar from '../components/TopBar.vue'
 import Photos from '../components/Photos.vue'
 
 export default {
     name: 'home-page',
     
     components: {
-        TopBar,
         Photos
     },
 
     data() {
         return {
-            image: '/img/index_header.JPG',
             thumpnailImages: [
-                '/img/IMG_2294.JPG',
-                '/img/IMG_2306.JPG',
-                '/img/IMG_2308.JPG',
-                '/img/IMG_2316.JPG'
+                '/img/11.JPG',
+                '/img/25.JPG',
+                '/img/33.JPG',
+                '/img/26.JPG'
             ]
         }
     },

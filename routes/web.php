@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('public.index');
 });
+
+Route::get('/billeder', function () {
+    return view('public.photos');
+});

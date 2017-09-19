@@ -11,9 +11,18 @@
     padding: 10px 10px 10px 30px;
     .frontpage {
         color: black;
+        margin-right: 30px;
         &:hover {
             text-decoration: underline;
             text-decoration-color: #E67E22; 
         }
     }   
+    .photos {
+        color: black;
+        margin-right: 30px;
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: rgb(15, 116, 150); 
+        }
+    }    
 }
