@@ -9,7 +9,10 @@
 @endsection
 
 <style scoped>
+.gallery {
+    max-height: 300px !important;
+}
 .left-border {
-    border-left: thick double rgb(15, 116, 150) !important;
+    border-left: thick double rgb(36, 171, 120) !important;
 }
 </style>

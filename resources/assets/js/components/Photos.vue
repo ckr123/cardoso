@@ -2,7 +2,7 @@
     <div>
         <div :class="col">
             <div v-bind:class="[border ? 'house__thumpnail left-border': 'house__thumpnail']">
-                <img v-for="image in images" :src="image" @click="showPhotoModal(image)"/>
+                <img class="gallery" v-for="image in images" :src="image" @click="showPhotoModal(image)"/>
             </div>
             <div :class="['modal', photoModalOpen ? 'showModal' : '']">
                 <span class="close" @click="closePhotoModal()">&times;</span>
@@ -54,8 +54,5 @@ export default {
 <style scoped>
 .showModal {
     display: block;
-}
-.left-border {
-    border-left: thick double rgb(15, 116, 150);
 }
 </style>

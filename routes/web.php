@@ -12,3 +12,5 @@
 */
 Route::get('/', 'HomeController@index');
 Route::get('/billeder', 'PhotoController@index');
+Route::get('/plantegninger', 'PlanController@index');
+Route::get('/byen', 'CityController@index');
