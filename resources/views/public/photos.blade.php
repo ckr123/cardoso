@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <photos-page></photos-page>
+<div>
+    <div class="container">
+        <photos  :images="{{ $files }}" col="col-md-12" :border="true"></photos>
+    </div>
+</div>
 @endsection
