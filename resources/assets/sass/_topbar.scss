@@ -9,7 +9,7 @@
 }
 .menu {
     padding: 10px 10px 10px 30px;
-    .frontpage {
+    .menu__item {
         color: black;
         margin-right: 30px;
         &:hover {
@@ -17,27 +17,12 @@
             text-decoration-color: #E67E22; 
         }
     }   
-    .photos {
-        color: black;
-        margin-right: 30px;
-        &:hover {
-            text-decoration: underline;
-            text-decoration-color: rgb(15, 116, 150); 
-        }
-    }
 
-    .plan {
-        color: black;
-        margin-right: 30px;
-        &:hover {
-            text-decoration: underline;
-            text-decoration-color: rgb(36, 171, 120); 
-        }
-    }
 
     .dropdown {
         position: relative;
         display: inline-block;
+        margin-right: 30px;
     }
 
     .dropdown-content {

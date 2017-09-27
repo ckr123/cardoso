@@ -14,3 +14,5 @@ Route::get('/', 'HomeController@index');
 Route::get('/billeder', 'PhotoController@index');
 Route::get('/plantegninger', 'PlanController@index');
 Route::get('/byen', 'CityController@index');
+Route::get('/omraade', 'AreaController@index');
+Route::get('/kontakt', 'ContactController@index');

@@ -12,7 +12,4 @@
 .gallery {
     max-height: 300px !important;
 }
-.left-border {
-    border-left: thick double rgb(36, 171, 120) !important;
-}
 </style>

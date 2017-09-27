@@ -13,22 +13,24 @@
                 På varme dage er det nemt at køre til friluftsbade i Barga, Bagni di Lucca og Gallicano. Visse steder er det også muligt at bade i floden Serchio.
             </div>
         </div>
-        <div id="map"></div>
+        <div class="col-md-6">
+          <div id="map"></div>
+        </div>
         <photos :images="{{ $files }}"></photos>
     </div>
 </div>
 @endsection
 <style>
    #map {
-    height: 300px;
-    width: 50%;
+    margin-top: 70px;
+    height: 200px;
    }
 </style>
 <script>
       function initMap() {
-        var cardoso = {lat: 10.312875, lng: 15.98};
+        var cardoso = {lat: 44.0074, lng: 10.3156};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
+          zoom: 9,
           center: cardoso
         });
         var marker = new google.maps.Marker({
@@ -36,7 +38,4 @@
           map: map
         });
       }
-</script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLEQdyDQXKyZw9DmjDcGf4bnNTueedZZg&callback=initMap">
 </script>

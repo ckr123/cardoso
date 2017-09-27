@@ -7,9 +7,3 @@
     </div>
 </div>
 @endsection
-
-<style scoped>
-.left-border {
-    border-left: thick double rgb(15, 116, 150) !important;
-}
-</style>

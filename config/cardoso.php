@@ -9,5 +9,8 @@ return [
     'city' => [
         '/img/73.JPG',
         '/img/78.JPG'
+    ],
+    'area' => [
+        '/img/64.JPG'
     ]
 ];
