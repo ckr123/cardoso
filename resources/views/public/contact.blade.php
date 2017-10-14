@@ -3,16 +3,17 @@
 @section('content')
 <div>
     <div class="container left-border">
-        <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="contact__header">Kontakt</h2>
             <form>
               <div class="form-group">
                 <label for="emailField">Email addresse</label>
-                <input type="email" class="form-control" id="emailField" placeholder="example@example.dk">
+                <input type="email" class="form-control" id="emailField" placeholder="din@email.dk">
               </div>
-             <div class="form-group">
+              <div class="form-group">
                 <label for="phoneField">Telefon</label>
-                <input type="text" class="form-control" id="phoneField" placeholder="8-cifre">
-              </div>
+                <input type="text" class="form-control" id="phoneField" placeholder="12 34 56 78">
               </div>
               <div class="form-group">
                 <label for="message">Besked</label>
@@ -21,6 +22,7 @@
               <button type="submit" class="btn btn-primary">Kontakt</button>
             </form>
         </div>
+      </div>
     </div>
 </div>
 @endsection
