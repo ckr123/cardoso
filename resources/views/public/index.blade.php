@@ -2,10 +2,10 @@
 
 @section('content')
 <div>
-    <div class="container">
+    <div class="container left-border">
         <div class="col-md-6">
-            <h2 class="house__text__header left-border">Toscansk idyl til salg</h2>
-            <div class="house__text left-border">
+            <h2 class="house__text__header">Toscansk idyl til salg</h2>
+            <div class="house__text">
                 Det ældste af huset er ca. 200 år gammelt, men er i 2007-08 istandsat til en hyggelig og funktionel bolig.
                 Huset er i 2 plan med et boligareal på ca. 160 m2.
                 Der er 3 soveværelser (det ene er pt. indrettet som dagligstue) og 3 badeværelser. Det store køkkenalrum er indrettet med spiseplads til 8-10 personer. Herfra er der udgang til en overdækket terrasse. 

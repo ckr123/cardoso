@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-    <div class="container">
+    <div class="container left-border">
         <div class="col-md-12">
             <form>
               <div class="form-group">

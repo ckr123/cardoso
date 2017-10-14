@@ -2,10 +2,10 @@
 
 @section('content')
 <div>
-    <div class="container">
+    <div class="container left-border">
         <div class="col-md-6">
-            <h2 class="house__text__header left-border">Fakta</h2>
-            <div class="house__text left-border">
+            <h2 class="house__text__header">Fakta</h2>
+            <div class="house__text">
                 <ul>
                     <li>30 km. til Lucca – ad god landevej (SP20)</li>
                     <li>Ca. 1 time til lufthavnen i Pisa</li>

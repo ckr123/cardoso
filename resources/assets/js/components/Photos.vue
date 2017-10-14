@@ -1,7 +1,8 @@
 <template>
     <div>
         <div :class="col">
-            <div v-bind:class="[border ? 'house__thumpnail left-border': 'house__thumpnail']">
+            <div class="house__thumpnail">
+                <h2 class="house__text__header" v-if="header">{{ header }}</h2>
                 <img class="gallery" v-for="image in images" :src="image" @click="showPhotoModal(image)"/>
             </div>
             <div :class="['modal', photoModalOpen ? 'showModal' : '']">
@@ -26,9 +27,9 @@ export default {
             type: String,
             default: 'col-md-6'
         },
-        border: {
-            type: Boolean,
-            default: false
+        header: {
+            type: String,
+            required: false
         }
     },
 
@@ -54,5 +55,9 @@ export default {
 <style scoped>
 .showModal {
     display: block;
+}
+
+.house__text__header {
+    padding-left: 6px !important;
 }
 </style>
