@@ -12,5 +12,7 @@ return [
     ],
     'area' => [
         '/img/64.JPG'
-    ]
+    ],
+
+    'contact' => env('CONTACT_EMAIL'),
 ];

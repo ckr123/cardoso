@@ -5,6 +5,7 @@ namespace App\Mail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Http\Request;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class ContactForm extends Mailable
@@ -16,9 +17,9 @@ class ContactForm extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->data = $data;
     }
 
     /**
@@ -28,6 +29,9 @@ class ContactForm extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->view('mail.contact')
+            ->from('cardoso@cardoso.dk')
+            ->subject('cardoso')
+            ->with($this->data);
     }
 }
