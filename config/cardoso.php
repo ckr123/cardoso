@@ -1,17 +1,12 @@
 <?php
 return [
-    'images' => [
-        '/img/11.JPG',
-        '/img/25.JPG',
-        '/img/33.JPG',
-        '/img/26.JPG'
-    ],
     'city' => [
-        '/img/73.JPG',
-        '/img/78.JPG'
+        '/img/city/IMG_2349.JPG',
+        '/img/city/IMG_2283.JPG'
     ],
     'area' => [
-        '/img/64.JPG'
+        '/img/facts/IMG_2347.JPG',
+        '/img/facts/IMG_2351.JPG'
     ],
 
     'contact' => env('CONTACT_EMAIL'),

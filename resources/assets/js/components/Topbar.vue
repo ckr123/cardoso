@@ -7,7 +7,7 @@
             <a href="/billeder" class="menu__item">Billeder</a>
             <a href="/plantegninger" class="menu__item">Plantegninger</a>
             <a href="/byen" class="menu__item">Byen</a>
-            <a href="/omraade" class="menu__item">Området</a>
+            <a href="/fakta" class="menu__item">Fakta</a>
             <a href="/kontakt" class="menu__item">Kontakt</a>
         </div>
     </div>
@@ -26,7 +26,7 @@
         },
         data() {
             return {
-                image: '/img/86.JPG',
+                image: '/img/topbar/IMG_2290.JPG',
             }
         },
     }
