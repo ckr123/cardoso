@@ -26,16 +26,3 @@
     height: 200px;
    }
 </style>
-<script>
-      function initMap() {
-        var cardoso = {lat: 44.0074, lng: 10.3156};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 9,
-          center: cardoso
-        });
-        var marker = new google.maps.Marker({
-          position: cardoso,
-          map: map
-        });
-      }
-</script>

@@ -14,7 +14,7 @@
               </div>
               <div class="form-group">
                 <label for="phone">Telefon</label>
-                <input type="text" name="phone" class="form-control" id="phone" placeholder="12 34 56 78">
+                <input type="text" name="phone" class="form-control" id="phone" placeholder="Dit telefon nummer">
               </div>
               <div class="form-group">
                 <label for="message">Besked</label>
