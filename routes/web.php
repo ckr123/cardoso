@@ -14,7 +14,7 @@ Route::get('/', 'HomeController@index');
 Route::get('/billeder', 'PhotoController@index');
 Route::get('/plantegninger', 'PlanController@index');
 Route::get('/byen', 'CityController@index');
-Route::get('/omraade', 'AreaController@index');
+Route::get('/fakta', 'AreaController@index');
 Route::get('/kontakt', 'ContactController@index');
 Route::post('/kontakt', 'ContactController@send')->name('email');
 Route::get('/tak', 'ContactController@thanks')->name('thanks');

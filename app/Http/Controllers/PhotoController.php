@@ -9,12 +9,12 @@ class PhotoController extends Controller
 {
     public function index()
     {
-        $photos = collect(Storage::files('public/img/'))
+        $photos = collect(Storage::files('public/img/pictures'))
             ->map(function ($photo) {
                 return str_replace('public', '', $photo);
             })
             ->sortBy(function ($photo) {
-                return (int)str_replace(['/img/', '.JPG'], '', $photo);
+                return (int)str_replace(['/img/pictures/IMG_', '.JPG'], '', $photo);
             })
             ->values();
             

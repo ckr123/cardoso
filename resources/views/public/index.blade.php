@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-    <div class="container left-border">
+    <div class="container">
         <div class="col-md-6">
             <h2 class="house__text__header">Toscansk idyl til salg</h2>
             <div class="house__text">
@@ -17,6 +17,7 @@
                 Prisoplæg: 210.000 Euro
             </div>
         </div>
+        <h2 class="house__text__header"></h2>
         <photos :images="{{ $photos }}"></photos>
     </div>
 </div>

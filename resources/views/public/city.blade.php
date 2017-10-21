@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-    <div class="container left-border">
+    <div class="container">
         <div class="col-md-6">
             <h2 class="house__text__header">Byen</h2>
             <div class="house__text">

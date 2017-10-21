@@ -2,10 +2,11 @@
 
 @section('content')
 <div>
-    <div class="container left-border">
+    <div class="container">
         <div class="col-md-6">
-            <h2 class="house__text__header">Fakta</h2>
-            <div class="house__text">
+            
+            <div class="house__text__facts">
+                <h2 class="house__text__header">Fakta</h2>
                 <ul>
                     <li>30 km. til Lucca – ad god landevej (SP20)</li>
                     <li>Ca. 1 time til lufthavnen i Pisa</li>
@@ -19,8 +20,3 @@
     </div>
 </div>
 @endsection
-<style scoped>
-.house__thumpnail img {
-    max-height: 250px !important;
-}
-</style>

@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-    <div class="container left-border">
+    <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <h2 class="contact__header">Kontakt</h2>
