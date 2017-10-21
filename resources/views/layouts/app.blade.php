@@ -25,7 +25,7 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <script>
           function initMap() {
-            var cardoso = {lat: 44.0074, lng: 10.3156};
+            var cardoso = {lat: 44.025, lng: 10.481};
             var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 9,
               center: cardoso
@@ -39,6 +39,7 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzQgOJ8RjSduH-BUPvmlxjRTdzcLONWxo&callback=initMap">
     </script>
+
     @yield('scripts')
 </body>
 </html>
