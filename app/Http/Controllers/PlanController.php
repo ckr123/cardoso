@@ -9,13 +9,11 @@ class PlanController extends Controller
 {
     public function index()
     {
-        $photos = Storage::files('public/plan/');
-        $files = collect();
-        foreach ($photos as $photo) {
-            $filename = str_replace('public', '', $photo);
-            $files->push($filename);
-        }
+        $photos = collect(Storage::files('public/plan/'))
+            ->map(function ($photo) {
+                return str_replace('public', '', $photo);
+            });
 
-        return view('public.plan', compact('files'));
+        return view('public.plan', compact('photos'));
     }
 }
