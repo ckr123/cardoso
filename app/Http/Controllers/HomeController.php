@@ -10,11 +10,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $files = collect();
-        foreach (config('cardoso.images') as $photo) {
-            $files->push($photo);
-        }
-
-        return view('public.index', compact('files'));
+        $photos = collect(config('cardoso.images'));
+        return view('public.index', compact('photos'));
     }
 }

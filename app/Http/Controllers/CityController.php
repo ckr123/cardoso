@@ -8,11 +8,8 @@ class CityController extends Controller
 {
     public function index()
     {
-        $files = collect();
-        foreach (config('cardoso.city') as $photo) {
-            $files->push($photo);
-        }
+        $photos = collect(config('cardoso.city'));
 
-        return view('public.city', compact('files'));
+        return view('public.city', compact('photos'));
     }
 }

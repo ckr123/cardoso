@@ -8,7 +8,7 @@ class AreaController extends Controller
 {
     public function index()
     {
-        $files = collect(config('cardoso.area'));
-        return view('public.area', compact('files'));
+        $photos = collect(config('cardoso.area'));
+        return view('public.area', compact('photos'));
     }
 }

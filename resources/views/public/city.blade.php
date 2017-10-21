@@ -16,7 +16,7 @@
         <div class="col-md-6">
           <div id="map"></div>
         </div>
-        <photos :images="{{ $files }}"></photos>
+        <photos :images="{{ $photos }}"></photos>
     </div>
 </div>
 @endsection

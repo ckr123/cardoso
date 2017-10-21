@@ -15,7 +15,7 @@
                 </ul>
             </div>
         </div>
-        <photos :images="{{ $files }}"></photos>
+        <photos :images="{{ $photos }}"></photos>
     </div>
 </div>
 @endsection
