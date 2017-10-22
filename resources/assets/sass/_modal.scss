@@ -30,6 +30,25 @@
     max-width: 700px;
 }
 
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently */
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.caption-arrows {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    font-size: 25px;
+    cursor: pointer;
+}
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 .caption {
     margin: auto;

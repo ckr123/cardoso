@@ -7,7 +7,10 @@
             </div>
             <div :class="['modal', photoModalOpen ? 'showModal' : '']">
                 <span class="close" @click="closePhotoModal()">&times;</span>
-
+                <div class="caption-arrows noselect">
+                    <span @click="scrollPrev"><</span>
+                    <span @click="scrollNext">></span>
+                </div>
                 <img class="modal-content" :src="selectedImage">
                 <div class="caption">Brug piletasterne til at navigere i billederne</div>
             </div>
