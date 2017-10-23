@@ -4,9 +4,9 @@
 <div>
     <div class="container">
         <div class="col-md-6">
-            <h2 class="house__text__header">Toscansk idyl til salg</h2>
+            <h1 class="house__text__header">Toscansk idyl til salg</h1>
             <div class="house__text">
-                Det ældste af huset er ca. 200 år gammelt, men er i 2007-08 istandsat til en hyggelig og funktionel bolig.
+                <p>Går du med drømmen om at købe et hus i italien? Dette italienske hus er til salg.</p> Det ældste af huset er ca. 200 år gammelt, men er i 2007-08 istandsat til en hyggelig og funktionel bolig.
                 Huset er i 2 plan med et boligareal på ca. 160 m2.
                 Der er 3 soveværelser (det ene er pt. indrettet som dagligstue) og 3 badeværelser. Det store køkkenalrum er indrettet med spiseplads til 8-10 personer. Herfra er der udgang til en overdækket terrasse. 
                 Via en trappe i haven er der adgang til en højtliggende åben terrasse med 180 graders udsigt over dalen og bjergene.
