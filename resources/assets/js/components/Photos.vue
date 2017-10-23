@@ -2,7 +2,7 @@
     <div>
         <div :class="col">
             <div class="house__thumpnail">
-                <h2 class="house__text__header" v-if="header">{{ header }}</h2>
+                <h1 class="house__text__header" v-if="header">{{ header }}</h1>
                 <img class="gallery" v-for="image in images" :src="image" @click="showPhotoModal(image)"/>
             </div>
             <div :class="['modal', photoModalOpen ? 'showModal' : '']">

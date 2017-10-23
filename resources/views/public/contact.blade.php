@@ -1,11 +1,11 @@
 @extends('layouts.app')
-
+<meta name='robots' content='noindex'>
 @section('content')
 <div>
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <h2 class="contact__header">Kontakt</h2>
+          <h1 class="contact__header">Kontakt</h1>
             <form method="POST" action="{{ route('email') }}">
               {{ csrf_field() }}
               <div class="form-group">
