@@ -3,7 +3,7 @@
 @section('content')
 <div>
     <div class="container">
-        <photos header="Plantegninger" :images="{{ $photos }}" col="col-md-12"></photos>
+        <photos header="Plantegninger over bygningen" :images="{{ $photos }}" col="col-md-12"></photos>
     </div>
 </div>
 @endsection

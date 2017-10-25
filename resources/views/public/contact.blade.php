@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <h1 class="contact__header">Kontakt</h1>
+          <h1 class="contact__header">Kontakt os for mere information</h1>
             <form method="POST" action="{{ route('email') }}">
               {{ csrf_field() }}
               <div class="form-group">

@@ -6,7 +6,7 @@
         <div class="col-md-6">
             
             <div class="house__text__facts">
-                <h1 class="house__text__header">Fakta</h1>
+                <h1 class="house__text__header">Fakta om området</h1>
                 <ul>
                     <li>30 km. til Lucca – ad god landevej (SP20)</li>
                     <li>Ca. 1 time til lufthavnen i Pisa</li>

@@ -4,7 +4,7 @@
 <div>
     <div class="container">
         <div class="col-md-6">
-            <h1 class="house__text__header">Byen</h1>
+            <h1 class="house__text__header">Den dejlige by</h1>
             <div class="house__text">
                 Cardoso er en aktiv og levende landsby med ca. 200 fastboende. Om sommeren suppleres indbyggertallet med turister fra især Storbritannien og de nordiske lande. Nogle bor i b&b eller i byens refugium, andre i egne boliger. I Cardoso findes 2 barer. Den ene med en lille alimentari, hvor man også kan købe frisk brød hver morgen.
                 Hvert år i juli holdes byfesten ”Cardoso con gusto” (Smag på Cardoso). Et tilløbsstykke for både italienere og turister. Sommeren igennem er der ofte levende musik i byen, fælles middage og andre aktiviteter. Området byder i det hele taget på et væld af kulturelle aktiviteter, lige fra klassiske koncerter til middelalderfester og markeder.
