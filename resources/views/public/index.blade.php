@@ -4,7 +4,7 @@
 <div>
     <div class="container">
         <div class="col-md-6">
-            <h1 class="house__text__header">Toscansk idyl til salg</h1>
+            <h1 class="house__text__header">Hus til salg - Toscansk idyl</h1>
             <div class="house__text">
                 <p>Går du med drømmen om at købe et hus i italien? Dette italienske hus er til salg.</p> Det ældste af huset er ca. 200 år gammelt, men er i 2007-08 istandsat til en hyggelig og funktionel bolig.
                 Huset er i 2 plan med et boligareal på ca. 160 m2.

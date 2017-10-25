@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='keywords' content='italien, hus, til salg, sommerhus, toscana'>
-    <meta name='description' content='Dejligt toscansk hus til salg i den smukke by cardoso, kontakt for mere info'>
+    <meta name='description' content='Dejligt toscansk hus til salg i den smukke by Cardoso. Nyd de gode toscanske vine på den dejlige terasse med udsigt over dalen og bjergene'>
     <meta name='author' content='cardoso, viasanginese22@gmail.com'>
     <meta name='url' content='http://cardoso.dk'>
     <meta name="robots" content="index,follow">

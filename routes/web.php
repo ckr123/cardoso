@@ -18,3 +18,6 @@ Route::get('/fakta', 'AreaController@index');
 Route::get('/kontakt', 'ContactController@index');
 Route::post('/kontakt', 'ContactController@send')->name('email');
 Route::get('/tak', 'ContactController@thanks')->name('thanks');
+Route::get('/sitemap', function () {
+    return response()->view('public.sitemap')->header('Content-Type', 'text/xml');
+});
